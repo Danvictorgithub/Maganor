@@ -29,6 +29,7 @@ li {
 	margin: 0;
 	background-color: #252525;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 100px;
 	padding-bottom: 150px;
@@ -74,14 +75,16 @@ button {
 .content-info-text {
 	text-align: center;
 	font-size: 36px;
-	font-weight: bolder;
+	font-weight: 900;
+	margin-bottom: 24px;
 }
 .container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .info {
-	width: 170px;
+	width: 168px;
 	margin: 24px;
 	text-align: center;
 }
@@ -95,6 +98,24 @@ button {
 	font-size: 18px;
 	margin-bottom: 48px;
 }
+.content-quote {
+	background-color: #E5E7EB;
+	color: #1F2937;
+	padding: 100px 280px 80px 280px;
+}
+.quote-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 300;
+	margin: 0;
+}
+.quote-end {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: right;
+	margin: 0;
+}
+
 /* Footer CSS */
 .footer {
 	height: 75px;
