@@ -1,0 +1,81 @@
+body  {
+	margin: 0;
+	font-family: Roboto;
+}
+/* Header CSS */
+.header {
+	height: 75px;
+	color: white;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 200px;
+}
+.header-text {
+	font-size: 24px;
+	font-weight: 900;
+}
+ul {
+	display: flex;
+	list-style: none;
+}
+li {
+	margin: 10px;
+	font-weight: 600;
+}
+/* Main-body CSS */
+.content-main {
+	margin: 0;
+	background-color: #252525;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	gap: 48px;
+}
+.content-main-title {
+	width: 450px;
+
+}
+.content-main .content-text {
+	margin: 0;
+	font-size: 48px;
+	color: white;
+}
+.content-main .content-paragraph {
+	margin: 0;
+	font-size: 18px;
+	color: #b5b5b5;
+}
+.content-main-image {
+	background-color: #b5b5b5;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid white;
+	height: 220px;
+	width: 500px;
+}
+button {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 2px 24px;
+	background: #7c7c7c;
+	border-radius: 10px;
+	border: 0;
+	color: white;
+}
+/* Footer CSS */
+.footer {
+	height: 75px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-text {
+	color: white;
+}
