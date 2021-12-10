@@ -1,2 +1,2 @@
-# Macanor
-Macanor's Landing Page
+# Maganor
+Maganor's Landing Page
