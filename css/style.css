@@ -59,7 +59,7 @@ li {
 	height: 220px;
 	width: 500px;
 }
-button {
+.button-main {
 	margin-top: 10px;
 	font-size: 18px;
 	font-weight: bold;
@@ -115,7 +115,38 @@ button {
 	text-align: right;
 	margin: 0;
 }
-
+.modal {
+	padding: 100px 200px;
+}
+.modal-main {
+	border: 0;
+	border-radius: 6px;
+	background: #7c7c7c;
+	padding: 50px 120px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.modal-info-header {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0;
+}
+.modal-info-text {
+	color: white;
+	margin: 0;
+}
+.modal-button {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 2px 24px;
+	background: #7c7c7c;
+	border-radius: 8px;
+	border: 2px solid white;
+	color: white;
+}
 /* Footer CSS */
 .footer {
 	height: 75px;
